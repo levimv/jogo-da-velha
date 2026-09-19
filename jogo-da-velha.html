@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jogo da Velha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Jogo da Velha</h1>
+
+        <p class="subtitulo">Desafie seu adversário!</p>
+
+        <div class="placar">
+            <div class="jogador jogador-x">
+                <span>Jogador X</span>
+                <strong id="scoreX">0</strong>
+            </div>
+
+            <div class="jogador jogador-o">
+                <span>Jogador O</span>
+                <strong id="scoreO">0</strong>
+            </div>
+        </div>
+
+        <div class="status" id="status">
+            Vez do jogador X
+        </div>
+
+        <div class="tabuleiro" id="tabuleiro">
+
+            <button class="casa" data-index="0"></button>
+            <button class="casa" data-index="1"></button>
+            <button class="casa" data-index="2"></button>
+
+            <button class="casa" data-index="3"></button>
+            <button class="casa" data-index="4"></button>
+            <button class="casa" data-index="5"></button>
+
+            <button class="casa" data-index="6"></button>
+            <button class="casa" data-index="7"></button>
+            <button class="casa" data-index="8"></button>
+
+        </div>
+
+        <button class="btn-reiniciar" id="btnReiniciar">
+            Reiniciar partida
+        </button>
+
+        <button class="btn-nova" id="btnNova">
+            Zerar placar
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
